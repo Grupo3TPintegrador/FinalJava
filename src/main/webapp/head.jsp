@@ -12,4 +12,5 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <!-- CSS -->
   <link rel="stylesheet" href="./css/styles.css">
+  <script type="text/javascript" defer src="./js/script.js"></script>
 </head>

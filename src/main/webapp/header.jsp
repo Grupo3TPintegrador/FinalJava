@@ -14,16 +14,16 @@
         </div>
         <ul class="navbar-nav d-flex justify-content-center align-items-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#conferencia">La conferencia</a>
+            <a class="nav-link active" aria-current="page" href="index.jsp##conferencia">La conferencia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#oradores">Los oradores</a>
+            <a class="nav-link " href="index.jsp#oradores">Los oradores</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#lugar">El lugar y la fecha</a>
+            <a class="nav-link" href="index.jsp#lugar">El lugar y la fecha</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#conviertete">Conviértete en orador</a>
+            <a class="nav-link" href="index.jsp#conviertete">Conviértete en orador</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-success" href="tickets.jsp">Comprar Tickets</a>

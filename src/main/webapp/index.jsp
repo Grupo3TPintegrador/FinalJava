@@ -1,9 +1,4 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
-<!--%
-    if(session.getAttribute("email") == null){
-        response.sendRedirect("login.jsp");
-    }
-%-->
 <!doctype html>
 <html lang="es">
 <jsp:include page="head.jsp"/>
@@ -52,16 +47,7 @@
 
 
 
-    <%
-    if(session.getAttribute("email") != null){
 
-    %>
-        <section class="text-center mb-4 mt-4">
-            <h1>Hola <span class="badge bg-secondary btn-log-reg"><%= session.getAttribute("nombre") %></span></h1>
-        </section>
-    <%
-    }
-    %>
 
 
  <!-- Sección oradores -->
@@ -158,21 +144,21 @@
         </div>
       </div>
       <!-- formulario        -->
-      <form class="row g-3 justify-content-center">
+      <form class="row g-3 justify-content-center" action="oradores" method="post">
         <div class="col-md-6">
           <div class="row g-3">
             <div class="col">
               <label for="nombre" class="form-label"></label>
-              <input type="text" class="form-control" placeholder="Nombre" id="nombre" aria-label="nombre">
+              <input type="text" class="form-control" placeholder="Nombre" id="nombre" name="nombre" aria-label="nombre">
             </div>
             <div class="col">
               <label for="apellido" class="form-label"></label>
-              <input type="text" class="form-control" placeholder="Apellido" id="apellido" aria-label="apellido">
+              <input type="text" class="form-control" placeholder="Apellido" id="apellido" name="apellido" aria-label="apellido">
             </div>
           </div>
           <div class="mb-3">
             <label for="textAreaTema" class="form-label"></label>
-            <textarea class="form-control" placeholder="Sobre qué quieres hablar" id="textAreaTema" rows="3"></textarea>
+            <textarea class="form-control" placeholder="Sobre qué quieres hablar" id="textAreaTema" name="textAreaTema" rows="3"></textarea>
           </div>
           <div class="form-text">
             Recuerda incluir un título para tu charla
