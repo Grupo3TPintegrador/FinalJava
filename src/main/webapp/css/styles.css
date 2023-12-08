@@ -1,0 +1,57 @@
+
+/* Barra de navegación */
+
+.navbar-oscura{
+    background-color: rgb(53, 58, 64);
+
+    padding: 10px 50px;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-brand h1{
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Sección conferencia */
+
+
+.oscurecer{
+    filter: brightness(50%);
+}
+
+.overlay{
+    position: absolute;
+    bottom: 50%;
+    color: white;
+}
+
+.bg-oscuro{
+    background-color: rgb(53, 58, 64);
+}
+
+
+.punteado{
+    text-decoration: underline dotted;
+}
+
+.boton-verde-claro{
+    background-color: rgb(150, 201, 62);
+    border: 0;
+}
+
+.footer-degrade{
+    background: linear-gradient(90deg,rgb(28,54,67),rgb(30,83,114));
+}
+
+
