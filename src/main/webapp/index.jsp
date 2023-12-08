@@ -149,16 +149,16 @@
           <div class="row g-3">
             <div class="col">
               <label for="nombre" class="form-label"></label>
-              <input type="text" class="form-control" placeholder="Nombre" id="nombre" name="nombre" aria-label="nombre">
+              <input type="text" class="form-control" placeholder="Nombre" id="nombre" name="nombre" aria-label="nombre" required>
             </div>
             <div class="col">
               <label for="apellido" class="form-label"></label>
-              <input type="text" class="form-control" placeholder="Apellido" id="apellido" name="apellido" aria-label="apellido">
+              <input type="text" class="form-control" placeholder="Apellido" id="apellido" name="apellido" aria-label="apellido" required>
             </div>
           </div>
           <div class="mb-3">
             <label for="textAreaTema" class="form-label"></label>
-            <textarea class="form-control" placeholder="Sobre qué quieres hablar" id="textAreaTema" name="textAreaTema" rows="3"></textarea>
+            <textarea class="form-control" placeholder="Sobre qué quieres hablar" id="textAreaTema" name="textAreaTema" rows="3" required></textarea>
           </div>
           <div class="form-text">
             Recuerda incluir un título para tu charla

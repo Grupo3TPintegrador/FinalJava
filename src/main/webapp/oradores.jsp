@@ -16,7 +16,7 @@
 
                     </div>
 
-                    <table border="1" style="width: 100%; color: white;">
+                    <table class="table table-dark table-striped" border="1" style="width: 100%; color: white;">
                             <thead>
                                 <tr>
                                     <th>ID</th>

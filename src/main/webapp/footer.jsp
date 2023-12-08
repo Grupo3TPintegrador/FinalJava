@@ -23,6 +23,9 @@
         <div class="col-md-12 col-lg-1 m-2">
           <p><small>Estudiantes</small></p>
         </div>
+        <div class="col-md-12 col-lg-1 m-2">
+          <a href="oradores.jsp"><small>Registro Oradores</small></a>
+        </div>
       </div>
   </footer>
 
